@@ -1,0 +1,1 @@
+SELECT dbo.CalculateAge('2004-08-19') age;

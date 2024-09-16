@@ -1,0 +1,6 @@
+CREATE FUNCTION CalculateAge(@date_of_birth DATE)
+RETURNS INT
+AS
+BEGIN
+   RETURN DATEDIFF(YEAR, @date_of_birth, GETDATE());
+END;
